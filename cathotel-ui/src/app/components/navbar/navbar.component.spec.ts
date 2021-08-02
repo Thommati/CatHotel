@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NavbarComponent } from './navbar.component';
+import { MaterialModule } from '../../material/material.module';
 
 describe('NavbarComponent', () => {
   let component: NavbarComponent;
@@ -8,7 +9,8 @@ describe('NavbarComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NavbarComponent ]
+      declarations: [ NavbarComponent ],
+      imports: [MaterialModule]
     })
     .compileComponents();
   });
@@ -21,5 +23,15 @@ describe('NavbarComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should contain the text "The Cat Hotel"', () => {
+    const mtb = fixture.nativeElement.querySelector('mat-toolbar');
+    expect(mtb.textContent).toContain('The Cat Hotel');
+  });
+
+  it('should have a menu button', () => {
+    const btn = fixture.nativeElement.querySelector('button');
+    expect(btn.textContent).toContain('menu');
   });
 });
