@@ -8,8 +8,13 @@
       </button>
     </div>
   </div>
+
   <h2 class="perks-header">The Cat Hotel Perks</h2>
-  <div class="info">
+  <section class="info">
     <app-info-card *ngFor="let data of cardData" [title]="data.title" [content]="data.content"></app-info-card>
-  </div>
+  </section>
+
+  <section class="testimonial">
+    <app-testimonial></app-testimonial>
+  </section>
 </main>
