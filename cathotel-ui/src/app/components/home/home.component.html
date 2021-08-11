@@ -8,7 +8,8 @@
       </button>
     </div>
   </div>
-  <div class="info" *ngFor="let data of cardData">
-    <app-info-card [title]="data.title" [content]="data.content"></app-info-card>
+  <h2 class="perks-header">The Cat Hotel Perks</h2>
+  <div class="info">
+    <app-info-card *ngFor="let data of cardData" [title]="data.title" [content]="data.content"></app-info-card>
   </div>
 </main>
