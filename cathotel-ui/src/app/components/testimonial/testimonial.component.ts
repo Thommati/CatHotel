@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-testimonial',
   templateUrl: './testimonial.component.html',
   styleUrls: ['./testimonial.component.scss']
 })
-export class TestimonialComponent implements OnInit {
-
+export class TestimonialComponent {
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  @Input() name = '';
+  @Input() title = '';
+  @Input() text = '';
 }
