@@ -11,4 +11,5 @@ export class TestimonialComponent {
   @Input() name = '';
   @Input() title = '';
   @Input() quote = '';
+  @Input() avatar = '';
 }
