@@ -8,8 +8,10 @@ import { Component, Input } from '@angular/core';
 export class TestimonialComponent {
   constructor() { }
 
-  @Input() name = '';
-  @Input() title = '';
-  @Input() quote = '';
-  @Input() avatar = '';
+  @Input() quoteData = {
+    name: '',
+    avatar: '',
+    title: '',
+    quote: ''
+  };
 }
