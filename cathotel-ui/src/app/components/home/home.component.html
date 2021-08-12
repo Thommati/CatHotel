@@ -15,6 +15,6 @@
   </section>
 
   <section class="testimonial">
-    <app-testimonial></app-testimonial>
+    <app-testimonial *ngFor="let quote of quoteData" [name]="quote.name" [title]="quote.title" [quote]="quote.quote"></app-testimonial>
   </section>
 </main>

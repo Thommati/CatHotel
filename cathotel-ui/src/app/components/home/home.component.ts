@@ -16,12 +16,27 @@ export class HomeComponent implements OnInit {
     },
     {
       title: 'On-site Veterinarian',
-      content: 'We have an on-site veterinarian hospital that provides 24-hour emergency care and can provide regular checkups and care.'
+      content:
+        'We have an on-site veterinarian hospital that provides 24-hour emergency care and can provide regular checkups and care.',
     },
     {
       title: 'Individual Care',
-      content: 'Each animal recieves personalized and individual care depending on their needs - including special-needs animals.'
-    }
+      content:
+        'Each animal recieves personalized and individual care depending on their needs - including special-needs animals.',
+    },
+  ];
+
+  quoteData = [
+    {
+      name: 'Veronica Zhang',
+      title: 'Amazing Place!',
+      quote: `
+      I am constantly traveling for work and always leave my cats in the care of The Cat Hotel.
+      The staff are amazing; they treat my cats and I incredibly well.  The cats are always
+      relaxed and stress-free when I come home to pick them up, I can tell they have been well
+      taken care of.
+      `,
+    },
   ];
 
   onBookedClicked(): void {

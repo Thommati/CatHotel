@@ -1,8 +1,13 @@
 <div class="testimonial-card">
-  <img src="/assets/images/avatar1.png" alt="quote owner's avatar">
-  <p>
-    I am constantly traveling for work and always leave my cats in the care of The Cat Hotel.
-    The staff are amazing; they treat my boys and I incredibly well.  The cats are always
-    relaxed and stress-free when I come home to picke them up. <em>-Veronica</em>
-  </p>
+  <div class="testimonial-card--header">
+    <img src="/assets/images/avatar1.png" alt="quote owner's avatar">
+    <div class="headers">
+      <h3>{{title}}</h3>
+      <h4>&mdash;{{name}}</h4>
+    </div>
+  </div>
+  <blockquote>
+    <mat-icon class="iquote">format_quote</mat-icon>
+    <p>{{quote}}</p>
+  </blockquote>
 </div>
