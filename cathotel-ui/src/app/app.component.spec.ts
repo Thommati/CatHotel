@@ -26,7 +26,6 @@ describe('AppComponent', () => {
 
   it('should render the navbar', () => {
     const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
     const navbar = fixture.nativeElement.querySelector('app-navbar');
     expect(navbar).toBeDefined();
   });
