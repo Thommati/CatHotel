@@ -1,4 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MaterialModule } from 'src/app/material/material.module';
+import { InfoCardComponent } from '../info-card/info-card.component';
+import { TestimonialComponent } from '../testimonial/testimonial.component';
 
 import { HomeComponent } from './home.component';
 
@@ -8,9 +11,9 @@ describe('HomeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HomeComponent ]
-    })
-    .compileComponents();
+      imports: [MaterialModule],
+      declarations: [HomeComponent, InfoCardComponent, TestimonialComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
