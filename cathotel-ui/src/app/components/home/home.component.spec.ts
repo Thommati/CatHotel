@@ -25,4 +25,13 @@ describe('HomeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it(`should render the booking button with the text "Book Your Pet's Vacation"`, () => {
+    const expectedButtonText = "Book Your Pet's Vacation";
+    const button = fixture.nativeElement.querySelector('.banner button');
+    expect(button).toBeDefined();
+    expect(button.textContent).toContain(expectedButtonText);
+  });
+
+  // TODO: Test the 'Book Your Pet's Vacation' button once it has been implemented
 });
