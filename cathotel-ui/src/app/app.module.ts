@@ -10,6 +10,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { InfoCardComponent } from './components/info-card/info-card.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
     NavbarComponent,
     HomeComponent,
     InfoCardComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
