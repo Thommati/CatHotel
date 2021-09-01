@@ -9,6 +9,11 @@
     </div>
   </div>
 
+  <section class="home-about">
+    <h2>What is The Cat Hotel?</h2>
+    <app-about></app-about>
+  </section>
+
   <h2 class="perks-header">The Cat Hotel Perks</h2>
   <section class="info">
     <app-info-card *ngFor="let data of cardData" [title]="data.title" [content]="data.content"></app-info-card>
