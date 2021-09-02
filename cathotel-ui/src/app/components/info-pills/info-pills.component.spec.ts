@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { InfoPillsComponent } from './info-pills.component';
+import { PillComponent } from '../pill/pill.component';
 
 describe('InfoPillsComponent', () => {
   let component: InfoPillsComponent;
@@ -8,7 +9,7 @@ describe('InfoPillsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InfoPillsComponent ]
+      declarations: [ InfoPillsComponent, PillComponent ]
     })
     .compileComponents();
   });

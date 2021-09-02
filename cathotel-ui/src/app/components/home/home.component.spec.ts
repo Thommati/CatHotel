@@ -2,6 +2,10 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MaterialModule } from 'src/app/material/material.module';
 import { InfoCardComponent } from '../info-card/info-card.component';
 import { TestimonialComponent } from '../testimonial/testimonial.component';
+import { AboutComponent } from '../about/about.component';
+import { InfoPillsComponent } from '../info-pills/info-pills.component';
+import { PillComponent } from '../pill/pill.component';
+import { FooterComponent } from '../footer/footer.component';
 
 import { HomeComponent } from './home.component';
 
@@ -12,7 +16,15 @@ describe('HomeComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [MaterialModule],
-      declarations: [HomeComponent, InfoCardComponent, TestimonialComponent],
+      declarations: [
+        HomeComponent,
+        InfoCardComponent,
+        TestimonialComponent,
+        AboutComponent,
+        InfoPillsComponent,
+        PillComponent,
+        FooterComponent,
+      ],
     }).compileComponents();
   });
 
