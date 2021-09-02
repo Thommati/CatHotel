@@ -12,6 +12,8 @@ import { InfoCardComponent } from './components/info-card/info-card.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
+import { InfoPillsComponent } from './components/info-pills/info-pills.component';
+import { PillComponent } from './components/pill/pill.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { AboutComponent } from './components/about/about.component';
     TestimonialComponent,
     FooterComponent,
     AboutComponent,
+    InfoPillsComponent,
+    PillComponent,
   ],
   imports: [
     BrowserModule,
