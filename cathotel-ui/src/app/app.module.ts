@@ -15,6 +15,7 @@ import { AboutComponent } from './components/about/about.component';
 import { InfoPillsComponent } from './components/info-pills/info-pills.component';
 import { PillComponent } from './components/pill/pill.component';
 import { TourComponent } from './components/tour/tour/tour.component';
+import { SnapshotComponent } from './components/tour/snapshot/snapshot.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { TourComponent } from './components/tour/tour/tour.component';
     InfoPillsComponent,
     PillComponent,
     TourComponent,
+    SnapshotComponent,
   ],
   imports: [
     BrowserModule,

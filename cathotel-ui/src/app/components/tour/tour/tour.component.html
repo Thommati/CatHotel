@@ -1,1 +1,21 @@
-<p>tour works!</p>
+<main class="tour">
+  <header>
+    <h1>A Tour of The Cat Hotel</h1>
+    <p>
+      Come explore our facility and see many of the great features we offer.
+      If you are still undecided if this is right place for your cat then feel
+      free to <a href="#">arrange an in-person tour</a>.  The comfort and safety
+      of your pet as well as your piece of mind are our top priorities!
+    </p>
+  </header>
+
+  <section>
+    <app-snapshot *ngFor="let data of snapshotData; let i = index"
+      [title]="data.title"
+      [order]="(i % 2)"
+      [imgSrc]="data.image"
+      [altText]="data.altText"
+      [text]="data.text">
+    </app-snapshot>
+  </section>
+</main>
