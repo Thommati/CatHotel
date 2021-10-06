@@ -16,6 +16,7 @@ import { InfoPillsComponent } from './components/info-pills/info-pills.component
 import { PillComponent } from './components/pill/pill.component';
 import { TourComponent } from './components/tour/tour/tour.component';
 import { SnapshotComponent } from './components/tour/snapshot/snapshot.component';
+import { LocationComponent } from './components/location/location.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { SnapshotComponent } from './components/tour/snapshot/snapshot.component
     PillComponent,
     TourComponent,
     SnapshotComponent,
+    LocationComponent,
   ],
   imports: [
     BrowserModule,
