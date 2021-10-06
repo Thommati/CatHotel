@@ -10,7 +10,7 @@ export class TourComponent {
 
   snapshotData = [
     {
-      title: 'Outdoor Play Areas',
+      title: 'Secure Outdoor Spaces',
       image: '/assets/images/leaping-cat.svg',
       altText: 'leaping cat',
       text: `
