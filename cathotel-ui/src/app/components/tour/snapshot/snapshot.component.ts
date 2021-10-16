@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SnapshotComponent implements OnInit {
   constructor() { }
 
+  // TODO: Add support for snapshot gallery.
   @Input() title = "";
   @Input() order = 0;
   @Input() imgSrc = "";

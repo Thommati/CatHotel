@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 export class TourComponent {
   constructor() {}
 
+  // Add more snapshots for things such as veterinarian facilities, cafe, front desk (drop off and pick up)
+  // Add a short video tour of the facility or videos for each section in addition to the missing images
+  // TODO: Add the missing images that appear at the bottom of the snapshots (snapshot gallery support)
   snapshotData = [
     {
       title: 'Secure Outdoor Spaces',
