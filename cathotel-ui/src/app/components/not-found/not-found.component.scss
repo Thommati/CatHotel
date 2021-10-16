@@ -1,0 +1,35 @@
+$title-size: 2rem;
+
+:host {
+  flex-grow: 1;
+}
+
+.not-found {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+
+  .icon-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+
+    h1 {
+      font-size: $title-size;
+      margin-bottom: 0;
+      margin-left: 1rem;
+    }
+
+    mat-icon {
+      color: goldenrod;
+      height: $title-size;
+      width: $title-size;
+      font-size: $title-size;
+    }
+  }
+
+  span {
+    color: goldenrod;
+    font-style: italic;
+  }
+}
