@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { LocationComponent } from './components/location/location.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
 import { TourComponent } from './components/tour/tour/tour.component';
 
 const routes: Routes = [
@@ -11,7 +10,6 @@ const routes: Routes = [
   { path: 'location', component: LocationComponent },
   { path: 'about', component: AboutComponent },
   { path: 'tour', component: TourComponent },
-  { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({
