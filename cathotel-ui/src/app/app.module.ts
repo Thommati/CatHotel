@@ -17,6 +17,7 @@ import { PillComponent } from './components/pill/pill.component';
 import { TourComponent } from './components/tour/tour/tour.component';
 import { SnapshotComponent } from './components/tour/snapshot/snapshot.component';
 import { LocationComponent } from './components/location/location.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { LocationComponent } from './components/location/location.component';
     TourComponent,
     SnapshotComponent,
     LocationComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
