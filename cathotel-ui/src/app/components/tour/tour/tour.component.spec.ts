@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TourComponent } from './tour.component';
+import { SnapshotComponent } from '../snapshot/snapshot.component';
 
 describe('TourComponent', () => {
   let component: TourComponent;
@@ -8,7 +9,7 @@ describe('TourComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TourComponent ]
+      declarations: [ TourComponent, SnapshotComponent ]
     })
     .compileComponents();
   });

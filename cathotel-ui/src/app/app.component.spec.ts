@@ -1,8 +1,9 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
+import { MaterialModule } from './material/material.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { MaterialModule } from './material/material.module';
+import { FooterComponent } from './components/footer/footer.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -14,6 +15,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent,
         NavbarComponent,
+        FooterComponent
       ],
     }).compileComponents();
   });
