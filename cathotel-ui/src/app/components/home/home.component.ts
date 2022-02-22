@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
   constructor() {}
 
   cardData = [
@@ -56,6 +56,4 @@ export class HomeComponent implements OnInit {
     // TODO: Implement button to navigate to booking page once it exists.
     console.log('onBookClicked.  Please implement me');
   }
-
-  ngOnInit(): void {}
 }

@@ -109,9 +109,21 @@
               "devServerTarget": "cathotel-ui:serve:production"
             }
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "cathotel-ui"
+  "defaultProject": "cathotel-ui",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
