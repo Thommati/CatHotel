@@ -5,4 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './location.component.html',
   styleUrls: ['./location.component.scss']
 })
-export class LocationComponent implements OnInit { }
+export class LocationComponent { }
